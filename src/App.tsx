@@ -4,6 +4,7 @@ import profile from "./assets/user.png";
 
 function App() {
   const title: string = "Auto EggAI";
+
   return (
     <>
       <Header title={title} logo={logo} profile={profile} />
