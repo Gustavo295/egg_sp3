@@ -6,9 +6,7 @@ export const HeaderCabec = styled.header`
   background-image: linear-gradient(#010339, #0009dc);
   background-size: 100%;
   justify-content: space-between;
-  padding-bottom: 10px;
-  border-bottom: 1px double gray;
-
+  padding: 0px 20px;
   .title {
     display: flex;
     font-size: 2em;
@@ -82,5 +80,30 @@ export const NavDirec = styled.nav`
     text-align: center;
     text-decoration: none;
     color: white;
+  }
+`;
+export const BodyCorpo = styled.body`
+  .body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100vh;
+    align-items: center;
+  }
+`;
+export const FooterRodape = styled.nav`
+  .footer {
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header h1,
+  footer p {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 `;

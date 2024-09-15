@@ -1,7 +1,11 @@
+import { BodyCorpo } from "../../styled";
+
 export default function Main() {
-    
-    return (
-        <>
-        </>
-    )
+  return (
+    <>
+      <BodyCorpo>
+        <body className="body"></body>
+      </BodyCorpo>
+    </>
+  );
 }
