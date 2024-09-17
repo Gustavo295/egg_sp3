@@ -1,5 +1,5 @@
-import { SectionSection1 } from "../../styled";
-import { SobreNos1Props } from "../../types";
+import { SectionSection1 } from "../../.././styled";
+import { SobreNos1Props } from "../../.././types";
 export default function SobreNos({
   github,
   ericImg,

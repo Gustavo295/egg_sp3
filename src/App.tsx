@@ -3,7 +3,7 @@ import logo from "./assets/logo-egg.png";
 import profile from "./assets/user.png";
 import Footer from "./components/Rodape/Footer";
 import Main from "./components/Corpo/Main";
-import SobreNos from "./routes/SobreNos";
+import SobreNos from "./routes/Home/SobreNos";
 import ericImg from "./assets/eric.png";
 import gustavoTeixeiraImg from "./assets/gustavo.png";
 import gustavoMoncaoImg from "./assets/moncao.png";
