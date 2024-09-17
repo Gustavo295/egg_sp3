@@ -7,5 +7,6 @@ margin:0px;
 box-sizing:border-box;
 font-family: Arial;
 }
+
 `;
 export default GlobalStyle;
